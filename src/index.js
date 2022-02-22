@@ -5,6 +5,7 @@ const { getDownloadObject } = require('./utils')
 
 async function setup() {
   try {
+    console.log("Hello loggy");
     // Get version
     const version = core.getInput('version')
 
