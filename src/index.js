@@ -10,6 +10,7 @@ async function setup() {
 
     // Download tarball
     const download = getDownloadObject(version)
+    console.log(download);
     const pathToTarBall = await tc.downloadTool(download.url)
 
     // Extract the tarball onto host runner
